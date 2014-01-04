@@ -8,3 +8,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 function precmd () {
 _z --add "$(pwd -P)"
 }
+function server() {
+	local port="${1:-8000}"
+	open "http://localhost:${port}/*"
+	python -m SimpleHTTPServer "$port"
+}
