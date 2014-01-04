@@ -6,9 +6,9 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
+dir=~/dotfiles/linux                 # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc osx cask Brewfile bash_profile vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+files="bashrc linux"    # list of files/folders to symlink in homedir
 
 ##########
 
