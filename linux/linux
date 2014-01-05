@@ -1,2 +1,1 @@
 cp -r ~/dotfiles/init/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings 2> /dev/null
-

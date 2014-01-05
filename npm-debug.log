@@ -1,0 +1,878 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yo',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'bower' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'yo', null ]
+6 verbose cache add name=undefined spec="yo" args=["yo",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'yo',
+7 verbose parsed url   path: 'yo',
+7 verbose parsed url   href: 'yo' }
+8 verbose cache add [ 'grunt-cli', null ]
+9 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-cli',
+10 verbose parsed url   path: 'grunt-cli',
+10 verbose parsed url   href: 'grunt-cli' }
+11 verbose cache add [ 'bower', null ]
+12 verbose cache add name=undefined spec="bower" args=["bower",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'bower',
+13 verbose parsed url   path: 'bower',
+13 verbose parsed url   href: 'bower' }
+14 silly lockFile c41975d1-yo yo
+15 verbose lock yo /home/malhar/.npm/c41975d1-yo.lock
+16 silly lockFile 671ef8ac-grunt-cli grunt-cli
+17 verbose lock grunt-cli /home/malhar/.npm/671ef8ac-grunt-cli.lock
+18 silly lockFile 206e3ce5-bower bower
+19 verbose lock bower /home/malhar/.npm/206e3ce5-bower.lock
+20 silly lockFile c41975d1-yo yo
+21 silly lockFile c41975d1-yo yo
+22 silly lockFile 671ef8ac-grunt-cli grunt-cli
+23 silly lockFile 671ef8ac-grunt-cli grunt-cli
+24 silly lockFile 206e3ce5-bower bower
+25 silly lockFile 206e3ce5-bower bower
+26 verbose addNamed [ 'yo', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile d937c28e-yo yo@
+29 verbose lock yo@ /home/malhar/.npm/d937c28e-yo.lock
+30 verbose addNamed [ 'grunt-cli', '' ]
+31 verbose addNamed [ null, '*' ]
+32 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+33 verbose lock grunt-cli@ /home/malhar/.npm/d63f3d0b-grunt-cli.lock
+34 verbose addNamed [ 'bower', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 1240aab1-bower bower@
+37 verbose lock bower@ /home/malhar/.npm/1240aab1-bower.lock
+38 silly addNameRange { name: 'yo', range: '*', hasData: false }
+39 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+40 verbose url raw yo
+41 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+42 verbose url resolved https://registry.npmjs.org/yo
+43 info trying registry request attempt 1 at 15:14:43
+44 http GET https://registry.npmjs.org/yo
+45 verbose url raw grunt-cli
+46 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+47 verbose url resolved https://registry.npmjs.org/grunt-cli
+48 info trying registry request attempt 1 at 15:14:43
+49 http GET https://registry.npmjs.org/grunt-cli
+50 silly addNameRange { name: 'bower', range: '*', hasData: false }
+51 verbose url raw bower
+52 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+53 verbose url resolved https://registry.npmjs.org/bower
+54 info trying registry request attempt 1 at 15:14:43
+55 http GET https://registry.npmjs.org/bower
+56 http 200 https://registry.npmjs.org/grunt-cli
+57 silly registry.get cb [ 200,
+57 silly registry.get   { date: 'Sat, 04 Jan 2014 14:14:44 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+57 silly registry.get     etag: '"2IUXD9NZCSQX9QMO6P027DUQP"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'content-length': '28818',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '0',
+57 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+57 silly registry.get     'x-cache': 'MISS',
+57 silly registry.get     'x-cache-hits': '0',
+57 silly registry.get     'x-timer': 'S1388844884.640788794,VS0,VE80',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+59 silly addNameRange versions [ 'grunt-cli',
+59 silly addNameRange   [ '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.1.2',
+59 silly addNameRange     '0.1.3',
+59 silly addNameRange     '0.1.4',
+59 silly addNameRange     '0.1.5',
+59 silly addNameRange     '0.1.6',
+59 silly addNameRange     '0.1.7',
+59 silly addNameRange     '0.1.8',
+59 silly addNameRange     '0.1.9',
+59 silly addNameRange     '0.1.10',
+59 silly addNameRange     '0.1.11' ] ]
+60 verbose addNamed [ 'grunt-cli', '0.1.11' ]
+61 verbose addNamed [ '0.1.11', '0.1.11' ]
+62 silly lockFile 74ccdc9e-grunt-cli-0-1-11 grunt-cli@0.1.11
+63 verbose lock grunt-cli@0.1.11 /home/malhar/.npm/74ccdc9e-grunt-cli-0-1-11.lock
+64 silly lockFile a7d9e6ca-g-grunt-cli-grunt-cli-0-1-11-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz
+65 verbose lock https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz /home/malhar/.npm/a7d9e6ca-g-grunt-cli-grunt-cli-0-1-11-tgz.lock
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz',
+66 verbose addRemoteTarball   'a0d785b7f8633983ecb5e6af8397feb6e39dd0a8' ]
+67 info retry fetch attempt 1 at 15:14:45
+68 verbose fetch to= /home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz
+69 http GET https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz
+70 http 200 https://registry.npmjs.org/yo
+71 silly registry.get cb [ 200,
+71 silly registry.get   { date: 'Sat, 04 Jan 2014 14:14:44 GMT',
+71 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+71 silly registry.get     etag: '"AIDJJZA6T4HQYDNFF0Z1GWIWD"',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'content-length': '64781',
+71 silly registry.get     'accept-ranges': 'bytes',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     age: '0',
+71 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+71 silly registry.get     'x-cache': 'MISS',
+71 silly registry.get     'x-cache-hits': '0',
+71 silly registry.get     'x-timer': 'S1388844884.612314463,VS0,VE81',
+71 silly registry.get     vary: 'Accept',
+71 silly registry.get     'keep-alive': 'timeout=10, max=50',
+71 silly registry.get     connection: 'Keep-Alive' } ]
+72 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+73 silly addNameRange versions [ 'yo',
+73 silly addNameRange   [ '1.0.0-beta.1',
+73 silly addNameRange     '1.0.0-beta.2',
+73 silly addNameRange     '1.0.0-beta.3',
+73 silly addNameRange     '1.0.0-beta.4',
+73 silly addNameRange     '1.0.0-beta.5',
+73 silly addNameRange     '1.0.0-beta.6',
+73 silly addNameRange     '1.0.0-beta.7',
+73 silly addNameRange     '1.0.0-rc.1',
+73 silly addNameRange     '1.0.0-rc.1.1',
+73 silly addNameRange     '1.0.0-rc.1.2',
+73 silly addNameRange     '1.0.0-rc.1.3',
+73 silly addNameRange     '1.0.0-rc.1.4',
+73 silly addNameRange     '1.0.0',
+73 silly addNameRange     '1.0.1',
+73 silly addNameRange     '1.0.2',
+73 silly addNameRange     '1.0.3',
+73 silly addNameRange     '1.0.4',
+73 silly addNameRange     '1.0.5',
+73 silly addNameRange     '1.0.6',
+73 silly addNameRange     '1.0.7-pre.1',
+73 silly addNameRange     '1.0.7-pre.2',
+73 silly addNameRange     '1.0.7-pre.3',
+73 silly addNameRange     '1.1.0',
+73 silly addNameRange     '1.1.1' ] ]
+74 verbose addNamed [ 'yo', '1.1.1' ]
+75 verbose addNamed [ '1.1.1', '1.1.1' ]
+76 silly lockFile a235a988-yo-1-1-1 yo@1.1.1
+77 verbose lock yo@1.1.1 /home/malhar/.npm/a235a988-yo-1-1-1.lock
+78 silly lockFile faafdb30-gistry-npmjs-org-yo-yo-1-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.1.1.tgz
+79 verbose lock https://registry.npmjs.org/yo/-/yo-1.1.1.tgz /home/malhar/.npm/faafdb30-gistry-npmjs-org-yo-yo-1-1-1-tgz.lock
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.1.1.tgz',
+80 verbose addRemoteTarball   '9c26dfef997c6114272c8b3980c6b02256e874d0' ]
+81 info retry fetch attempt 1 at 15:14:46
+82 verbose fetch to= /home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz
+83 http GET https://registry.npmjs.org/yo/-/yo-1.1.1.tgz
+84 http 200 https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz
+85 verbose tar unpack /home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz
+86 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+87 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package /home/malhar/.npm/6598eea9-85984-0-8300093994475901-package.lock
+88 silly lockFile cec54c09-85984-0-8300093994475901-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz
+89 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz /home/malhar/.npm/cec54c09-85984-0-8300093994475901-tmp-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm extractEntry .npmignore
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm extractEntry Gruntfile.js
+95 silly gunzTarPerm extractEntry .travis.yml
+96 silly gunzTarPerm extractEntry AUTHORS
+97 silly gunzTarPerm extractEntry LICENSE-MIT
+98 silly gunzTarPerm extractEntry bin/grunt
+99 silly gunzTarPerm extractEntry completion/bash
+100 silly gunzTarPerm extractEntry completion/zsh
+101 silly gunzTarPerm extractEntry lib/cli.js
+102 silly gunzTarPerm extractEntry lib/completion.js
+103 silly gunzTarPerm extractEntry lib/info.js
+104 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+105 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+106 silly lockFile cec54c09-85984-0-8300093994475901-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz
+107 silly lockFile cec54c09-85984-0-8300093994475901-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/tmp.tgz
+108 verbose tar pack [ '/home/malhar/.npm/grunt-cli/0.1.11/package.tgz',
+108 verbose tar pack   '/home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package' ]
+109 verbose tarball /home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+110 verbose folder /home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+111 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+112 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package /home/malhar/.npm/6598eea9-85984-0-8300093994475901-package.lock
+113 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+114 verbose lock tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz /home/malhar/.npm/120d9329-npm-grunt-cli-0-1-11-package-tgz.lock
+115 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+116 silly lockFile 6598eea9-85984-0-8300093994475901-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844885984-0.8300093994475901/package
+117 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+118 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+119 silly lockFile e1dbc596-har-npm-grunt-cli-0-1-11-package /home/malhar/.npm/grunt-cli/0.1.11/package
+120 verbose lock /home/malhar/.npm/grunt-cli/0.1.11/package /home/malhar/.npm/e1dbc596-har-npm-grunt-cli-0-1-11-package.lock
+121 silly lockFile e1dbc596-har-npm-grunt-cli-0-1-11-package /home/malhar/.npm/grunt-cli/0.1.11/package
+122 silly lockFile e1dbc596-har-npm-grunt-cli-0-1-11-package /home/malhar/.npm/grunt-cli/0.1.11/package
+123 verbose tar unpack /home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+124 silly lockFile 53103bc4-har-npm-grunt-cli-0-1-11-package tar:///home/malhar/.npm/grunt-cli/0.1.11/package
+125 verbose lock tar:///home/malhar/.npm/grunt-cli/0.1.11/package /home/malhar/.npm/53103bc4-har-npm-grunt-cli-0-1-11-package.lock
+126 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+127 verbose lock tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz /home/malhar/.npm/120d9329-npm-grunt-cli-0-1-11-package-tgz.lock
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm extractEntry Gruntfile.js
+133 silly gunzTarPerm extractEntry .travis.yml
+134 silly gunzTarPerm extractEntry AUTHORS
+135 silly gunzTarPerm extractEntry LICENSE-MIT
+136 silly gunzTarPerm extractEntry bin/grunt
+137 silly gunzTarPerm extractEntry completion/bash
+138 silly gunzTarPerm extractEntry completion/zsh
+139 silly gunzTarPerm extractEntry lib/cli.js
+140 silly gunzTarPerm extractEntry lib/completion.js
+141 silly gunzTarPerm extractEntry lib/info.js
+142 silly lockFile 53103bc4-har-npm-grunt-cli-0-1-11-package tar:///home/malhar/.npm/grunt-cli/0.1.11/package
+143 silly lockFile 53103bc4-har-npm-grunt-cli-0-1-11-package tar:///home/malhar/.npm/grunt-cli/0.1.11/package
+144 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+145 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+146 verbose chmod /home/malhar/.npm/grunt-cli/0.1.11/package.tgz 644
+147 verbose chown /home/malhar/.npm/grunt-cli/0.1.11/package.tgz [ 1000, 1000 ]
+148 silly lockFile a7d9e6ca-g-grunt-cli-grunt-cli-0-1-11-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz
+149 silly lockFile a7d9e6ca-g-grunt-cli-grunt-cli-0-1-11-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz
+150 silly lockFile 74ccdc9e-grunt-cli-0-1-11 grunt-cli@0.1.11
+151 silly lockFile 74ccdc9e-grunt-cli-0-1-11 grunt-cli@0.1.11
+152 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+153 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+154 http 200 https://registry.npmjs.org/yo/-/yo-1.1.1.tgz
+155 verbose tar unpack /home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz
+156 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+157 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package /home/malhar/.npm/fe506095-86349-0-9162681079469621-package.lock
+158 silly lockFile 591e90d6-86349-0-9162681079469621-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz
+159 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz /home/malhar/.npm/591e90d6-86349-0-9162681079469621-tmp-tgz.lock
+160 silly gunzTarPerm modes [ '755', '644' ]
+161 silly gunzTarPerm extractEntry package.json
+162 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+163 silly gunzTarPerm extractEntry cli.js
+164 silly gunzTarPerm modified mode [ 'cli.js', 438, 420 ]
+165 silly gunzTarPerm extractEntry yoyo.js
+166 silly gunzTarPerm modified mode [ 'yoyo.js', 438, 420 ]
+167 silly gunzTarPerm extractEntry readme.md
+168 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+169 silly gunzTarPerm extractEntry scripts/doctor.js
+170 silly gunzTarPerm modified mode [ 'scripts/doctor.js', 438, 420 ]
+171 silly gunzTarPerm extractEntry yeoman.txt
+172 silly gunzTarPerm modified mode [ 'yeoman.txt', 438, 420 ]
+173 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+174 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+175 silly lockFile 591e90d6-86349-0-9162681079469621-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz
+176 silly lockFile 591e90d6-86349-0-9162681079469621-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/tmp.tgz
+177 verbose tar pack [ '/home/malhar/.npm/yo/1.1.1/package.tgz',
+177 verbose tar pack   '/home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package' ]
+178 verbose tarball /home/malhar/.npm/yo/1.1.1/package.tgz
+179 verbose folder /home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+180 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+181 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package /home/malhar/.npm/fe506095-86349-0-9162681079469621-package.lock
+182 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+183 verbose lock tar:///home/malhar/.npm/yo/1.1.1/package.tgz /home/malhar/.npm/422b8aae--malhar-npm-yo-1-1-1-package-tgz.lock
+184 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+185 silly lockFile fe506095-86349-0-9162681079469621-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844886349-0.9162681079469621/package
+186 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+187 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+188 silly lockFile 65e7a815-home-malhar-npm-yo-1-1-1-package /home/malhar/.npm/yo/1.1.1/package
+189 verbose lock /home/malhar/.npm/yo/1.1.1/package /home/malhar/.npm/65e7a815-home-malhar-npm-yo-1-1-1-package.lock
+190 silly lockFile 65e7a815-home-malhar-npm-yo-1-1-1-package /home/malhar/.npm/yo/1.1.1/package
+191 silly lockFile 65e7a815-home-malhar-npm-yo-1-1-1-package /home/malhar/.npm/yo/1.1.1/package
+192 verbose tar unpack /home/malhar/.npm/yo/1.1.1/package.tgz
+193 silly lockFile 0673c340-home-malhar-npm-yo-1-1-1-package tar:///home/malhar/.npm/yo/1.1.1/package
+194 verbose lock tar:///home/malhar/.npm/yo/1.1.1/package /home/malhar/.npm/0673c340-home-malhar-npm-yo-1-1-1-package.lock
+195 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+196 verbose lock tar:///home/malhar/.npm/yo/1.1.1/package.tgz /home/malhar/.npm/422b8aae--malhar-npm-yo-1-1-1-package-tgz.lock
+197 silly gunzTarPerm modes [ '755', '644' ]
+198 silly gunzTarPerm extractEntry package.json
+199 silly gunzTarPerm extractEntry cli.js
+200 silly gunzTarPerm extractEntry yoyo.js
+201 silly gunzTarPerm extractEntry readme.md
+202 silly gunzTarPerm extractEntry scripts/doctor.js
+203 silly gunzTarPerm extractEntry yeoman.txt
+204 silly lockFile 0673c340-home-malhar-npm-yo-1-1-1-package tar:///home/malhar/.npm/yo/1.1.1/package
+205 silly lockFile 0673c340-home-malhar-npm-yo-1-1-1-package tar:///home/malhar/.npm/yo/1.1.1/package
+206 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+207 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+208 verbose chmod /home/malhar/.npm/yo/1.1.1/package.tgz 644
+209 verbose chown /home/malhar/.npm/yo/1.1.1/package.tgz [ 1000, 1000 ]
+210 silly lockFile faafdb30-gistry-npmjs-org-yo-yo-1-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.1.1.tgz
+211 silly lockFile faafdb30-gistry-npmjs-org-yo-yo-1-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.1.1.tgz
+212 silly lockFile a235a988-yo-1-1-1 yo@1.1.1
+213 silly lockFile a235a988-yo-1-1-1 yo@1.1.1
+214 silly lockFile d937c28e-yo yo@
+215 silly lockFile d937c28e-yo yo@
+216 http 200 https://registry.npmjs.org/bower
+217 silly registry.get cb [ 200,
+217 silly registry.get   { date: 'Sat, 04 Jan 2014 14:14:44 GMT',
+217 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+217 silly registry.get     etag: '"A45R6SSPE7PQZA9ST51BSY8ZV"',
+217 silly registry.get     'content-type': 'application/json',
+217 silly registry.get     'content-length': '654945',
+217 silly registry.get     'accept-ranges': 'bytes',
+217 silly registry.get     via: '1.1 varnish',
+217 silly registry.get     age: '0',
+217 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+217 silly registry.get     'x-cache': 'MISS',
+217 silly registry.get     'x-cache-hits': '0',
+217 silly registry.get     'x-timer': 'S1388844884.594193220,VS0,VE124',
+217 silly registry.get     vary: 'Accept',
+217 silly registry.get     'keep-alive': 'timeout=10, max=50',
+217 silly registry.get     connection: 'Keep-Alive' } ]
+218 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+219 silly addNameRange versions [ 'bower',
+219 silly addNameRange   [ '0.1.0',
+219 silly addNameRange     '0.1.2',
+219 silly addNameRange     '0.1.3',
+219 silly addNameRange     '0.2.0',
+219 silly addNameRange     '0.3.0',
+219 silly addNameRange     '0.3.1',
+219 silly addNameRange     '0.3.2',
+219 silly addNameRange     '0.4.0',
+219 silly addNameRange     '0.5.0',
+219 silly addNameRange     '0.5.1',
+219 silly addNameRange     '0.6.0',
+219 silly addNameRange     '0.6.1',
+219 silly addNameRange     '0.6.2',
+219 silly addNameRange     '0.6.3',
+219 silly addNameRange     '0.6.4',
+219 silly addNameRange     '0.6.5',
+219 silly addNameRange     '0.6.6',
+219 silly addNameRange     '0.6.7',
+219 silly addNameRange     '0.6.8',
+219 silly addNameRange     '0.7.0',
+219 silly addNameRange     '0.7.1',
+219 silly addNameRange     '0.8.0',
+219 silly addNameRange     '0.8.1',
+219 silly addNameRange     '0.8.2',
+219 silly addNameRange     '0.8.3',
+219 silly addNameRange     '0.8.4',
+219 silly addNameRange     '0.8.5',
+219 silly addNameRange     '0.8.6',
+219 silly addNameRange     '0.9.0',
+219 silly addNameRange     '0.9.1',
+219 silly addNameRange     '0.9.2',
+219 silly addNameRange     '0.10.0',
+219 silly addNameRange     '1.0.0',
+219 silly addNameRange     '1.0.1',
+219 silly addNameRange     '1.0.2',
+219 silly addNameRange     '1.0.3',
+219 silly addNameRange     '1.1.0',
+219 silly addNameRange     '1.1.1',
+219 silly addNameRange     '1.1.2',
+219 silly addNameRange     '1.2.0',
+219 silly addNameRange     '1.2.1',
+219 silly addNameRange     '1.2.2',
+219 silly addNameRange     '1.2.3',
+219 silly addNameRange     '1.2.4',
+219 silly addNameRange     '1.2.5',
+219 silly addNameRange     '1.2.6',
+219 silly addNameRange     '1.2.7',
+219 silly addNameRange     '1.2.8' ] ]
+220 verbose addNamed [ 'bower', '1.2.8' ]
+221 verbose addNamed [ '1.2.8', '1.2.8' ]
+222 silly lockFile f0910d34-bower-1-2-8 bower@1.2.8
+223 verbose lock bower@1.2.8 /home/malhar/.npm/f0910d34-bower-1-2-8.lock
+224 silly lockFile f9776a33--npmjs-org-bower-bower-1-2-8-tgz https://registry.npmjs.org/bower/-/bower-1.2.8.tgz
+225 verbose lock https://registry.npmjs.org/bower/-/bower-1.2.8.tgz /home/malhar/.npm/f9776a33--npmjs-org-bower-bower-1-2-8-tgz.lock
+226 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.2.8.tgz',
+226 verbose addRemoteTarball   'f63c0804a267d5ffaf2fd3fd488367e73dce202f' ]
+227 info retry fetch attempt 1 at 15:14:50
+228 verbose fetch to= /home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz
+229 http GET https://registry.npmjs.org/bower/-/bower-1.2.8.tgz
+230 http 200 https://registry.npmjs.org/bower/-/bower-1.2.8.tgz
+231 verbose tar unpack /home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz
+232 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+233 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package /home/malhar/.npm/53217591-90864-0-9215130507946014-package.lock
+234 silly lockFile 7ae23777-90864-0-9215130507946014-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz
+235 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz /home/malhar/.npm/7ae23777-90864-0-9215130507946014-tmp-tgz.lock
+236 silly gunzTarPerm modes [ '755', '644' ]
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm extractEntry .npmignore
+239 silly gunzTarPerm extractEntry README.md
+240 silly gunzTarPerm extractEntry LICENSE
+241 silly gunzTarPerm extractEntry Gruntfile.js
+242 silly gunzTarPerm extractEntry CONTRIBUTING.md
+243 silly gunzTarPerm extractEntry .editorconfig
+244 silly gunzTarPerm extractEntry .jshintrc
+245 silly gunzTarPerm extractEntry .travis.yml
+246 silly gunzTarPerm extractEntry bin/bower
+247 silly gunzTarPerm extractEntry lib/config.js
+248 silly gunzTarPerm extractEntry lib/index.js
+249 silly gunzTarPerm extractEntry lib/commands/update.js
+250 silly gunzTarPerm extractEntry lib/commands/index.js
+251 silly gunzTarPerm extractEntry lib/commands/info.js
+252 silly gunzTarPerm extractEntry lib/commands/init.js
+253 silly gunzTarPerm extractEntry lib/commands/install.js
+254 silly gunzTarPerm extractEntry lib/commands/home.js
+255 silly gunzTarPerm extractEntry lib/commands/list.js
+256 silly gunzTarPerm extractEntry lib/commands/lookup.js
+257 silly gunzTarPerm extractEntry lib/commands/prune.js
+258 silly gunzTarPerm extractEntry lib/commands/register.js
+259 silly gunzTarPerm extractEntry lib/commands/search.js
+260 silly gunzTarPerm extractEntry lib/commands/help.js
+261 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+262 silly gunzTarPerm extractEntry lib/commands/completion.js
+263 silly gunzTarPerm extractEntry lib/commands/link.js
+264 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+265 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+266 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+267 silly gunzTarPerm extractEntry lib/core/Manager.js
+268 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+269 silly gunzTarPerm extractEntry lib/core/Project.js
+270 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+271 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+272 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+273 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+274 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+275 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+276 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+277 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+278 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+279 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+280 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+281 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+282 silly gunzTarPerm extractEntry lib/renderers/index.js
+283 silly gunzTarPerm extractEntry lib/util/cli.js
+284 silly gunzTarPerm extractEntry lib/util/createError.js
+285 silly gunzTarPerm extractEntry lib/util/createLink.js
+286 silly gunzTarPerm extractEntry lib/util/download.js
+287 silly gunzTarPerm extractEntry lib/util/extract.js
+288 silly gunzTarPerm extractEntry lib/util/copy.js
+289 silly gunzTarPerm extractEntry lib/util/readJson.js
+290 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+291 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+292 silly gunzTarPerm extractEntry lib/util/semver.js
+293 silly gunzTarPerm extractEntry lib/util/template.js
+294 silly gunzTarPerm extractEntry lib/util/cmd.js
+295 silly gunzTarPerm extractEntry lib/util/validLink.js
+296 silly gunzTarPerm extractEntry lib/util/md5.js
+297 silly gunzTarPerm extractEntry CHANGELOG.md
+298 silly gunzTarPerm extractEntry templates/helpers/colors.js
+299 silly gunzTarPerm extractEntry templates/helpers/condense.js
+300 silly gunzTarPerm extractEntry templates/helpers/indent.js
+301 silly gunzTarPerm extractEntry templates/helpers/index.js
+302 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+303 silly gunzTarPerm extractEntry templates/helpers/sum.js
+304 silly gunzTarPerm extractEntry templates/json/help-list.json
+305 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+306 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+307 silly gunzTarPerm extractEntry templates/json/help-home.json
+308 silly gunzTarPerm extractEntry templates/json/help-info.json
+309 silly gunzTarPerm extractEntry templates/json/help-init.json
+310 silly gunzTarPerm extractEntry templates/json/help-install.json
+311 silly gunzTarPerm extractEntry templates/json/help-link.json
+312 silly gunzTarPerm extractEntry templates/json/help-cache.json
+313 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+314 silly gunzTarPerm extractEntry templates/json/help-prune.json
+315 silly gunzTarPerm extractEntry templates/json/help-register.json
+316 silly gunzTarPerm extractEntry templates/json/help-search.json
+317 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+318 silly gunzTarPerm extractEntry templates/json/help-update.json
+319 silly gunzTarPerm extractEntry templates/json/help.json
+320 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+321 silly gunzTarPerm extractEntry templates/std/conflict.std
+322 silly gunzTarPerm extractEntry templates/std/help-cache.std
+323 silly gunzTarPerm extractEntry templates/std/help-generic.std
+324 silly gunzTarPerm extractEntry templates/std/help.std
+325 silly gunzTarPerm extractEntry templates/std/info.std
+326 silly gunzTarPerm extractEntry templates/std/lookup.std
+327 silly gunzTarPerm extractEntry templates/std/register.std
+328 silly gunzTarPerm extractEntry templates/std/search-results.std
+329 silly gunzTarPerm extractEntry templates/std/update-notice.std
+330 silly gunzTarPerm extractEntry test/packages.js
+331 silly gunzTarPerm extractEntry test/test.js
+332 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+333 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+334 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+335 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+336 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+337 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+338 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+339 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+340 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+341 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+342 silly gunzTarPerm extractEntry test/core/packageRepository.js
+343 silly gunzTarPerm extractEntry test/core/resolveCache.js
+344 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+345 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+346 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+347 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+348 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+349 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+350 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+351 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+352 silly gunzTarPerm extractEntry test/packages.json
+353 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+354 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+355 silly lockFile 7ae23777-90864-0-9215130507946014-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz
+356 silly lockFile 7ae23777-90864-0-9215130507946014-tmp-tgz tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/tmp.tgz
+357 verbose tar pack [ '/home/malhar/.npm/bower/1.2.8/package.tgz',
+357 verbose tar pack   '/home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package' ]
+358 verbose tarball /home/malhar/.npm/bower/1.2.8/package.tgz
+359 verbose folder /home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+360 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+361 verbose lock tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package /home/malhar/.npm/53217591-90864-0-9215130507946014-package.lock
+362 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+363 verbose lock tar:///home/malhar/.npm/bower/1.2.8/package.tgz /home/malhar/.npm/774c6c49-lhar-npm-bower-1-2-8-package-tgz.lock
+364 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+365 silly lockFile 53217591-90864-0-9215130507946014-package tar:///home/malhar/tmp/npm-4227-2oSMTePA/1388844890864-0.9215130507946014/package
+366 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+367 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+368 silly lockFile 6080e9a7-e-malhar-npm-bower-1-2-8-package /home/malhar/.npm/bower/1.2.8/package
+369 verbose lock /home/malhar/.npm/bower/1.2.8/package /home/malhar/.npm/6080e9a7-e-malhar-npm-bower-1-2-8-package.lock
+370 silly lockFile 6080e9a7-e-malhar-npm-bower-1-2-8-package /home/malhar/.npm/bower/1.2.8/package
+371 silly lockFile 6080e9a7-e-malhar-npm-bower-1-2-8-package /home/malhar/.npm/bower/1.2.8/package
+372 verbose tar unpack /home/malhar/.npm/bower/1.2.8/package.tgz
+373 silly lockFile 515aae40-e-malhar-npm-bower-1-2-8-package tar:///home/malhar/.npm/bower/1.2.8/package
+374 verbose lock tar:///home/malhar/.npm/bower/1.2.8/package /home/malhar/.npm/515aae40-e-malhar-npm-bower-1-2-8-package.lock
+375 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+376 verbose lock tar:///home/malhar/.npm/bower/1.2.8/package.tgz /home/malhar/.npm/774c6c49-lhar-npm-bower-1-2-8-package-tgz.lock
+377 silly gunzTarPerm modes [ '755', '644' ]
+378 silly gunzTarPerm extractEntry package.json
+379 silly gunzTarPerm extractEntry .npmignore
+380 silly gunzTarPerm extractEntry README.md
+381 silly gunzTarPerm extractEntry LICENSE
+382 silly gunzTarPerm extractEntry Gruntfile.js
+383 silly gunzTarPerm extractEntry CONTRIBUTING.md
+384 silly gunzTarPerm extractEntry .editorconfig
+385 silly gunzTarPerm extractEntry .jshintrc
+386 silly gunzTarPerm extractEntry .travis.yml
+387 silly gunzTarPerm extractEntry bin/bower
+388 silly gunzTarPerm extractEntry lib/config.js
+389 silly gunzTarPerm extractEntry lib/index.js
+390 silly gunzTarPerm extractEntry lib/commands/update.js
+391 silly gunzTarPerm extractEntry lib/commands/index.js
+392 silly gunzTarPerm extractEntry lib/commands/info.js
+393 silly gunzTarPerm extractEntry lib/commands/init.js
+394 silly gunzTarPerm extractEntry lib/commands/install.js
+395 silly gunzTarPerm extractEntry lib/commands/home.js
+396 silly gunzTarPerm extractEntry lib/commands/list.js
+397 silly gunzTarPerm extractEntry lib/commands/lookup.js
+398 silly gunzTarPerm extractEntry lib/commands/prune.js
+399 silly gunzTarPerm extractEntry lib/commands/register.js
+400 silly gunzTarPerm extractEntry lib/commands/search.js
+401 silly gunzTarPerm extractEntry lib/commands/help.js
+402 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+403 silly gunzTarPerm extractEntry lib/commands/completion.js
+404 silly gunzTarPerm extractEntry lib/commands/link.js
+405 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+406 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+407 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+408 silly gunzTarPerm extractEntry lib/core/Manager.js
+409 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+410 silly gunzTarPerm extractEntry lib/core/Project.js
+411 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+412 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+413 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+414 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+415 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+416 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+417 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+418 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+419 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+420 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+421 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+422 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+423 silly gunzTarPerm extractEntry lib/renderers/index.js
+424 silly gunzTarPerm extractEntry lib/util/cli.js
+425 silly gunzTarPerm extractEntry lib/util/createError.js
+426 silly gunzTarPerm extractEntry lib/util/createLink.js
+427 silly gunzTarPerm extractEntry lib/util/download.js
+428 silly gunzTarPerm extractEntry lib/util/extract.js
+429 silly gunzTarPerm extractEntry lib/util/copy.js
+430 silly gunzTarPerm extractEntry lib/util/readJson.js
+431 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+432 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+433 silly gunzTarPerm extractEntry lib/util/semver.js
+434 silly gunzTarPerm extractEntry lib/util/template.js
+435 silly gunzTarPerm extractEntry lib/util/cmd.js
+436 silly gunzTarPerm extractEntry lib/util/validLink.js
+437 silly gunzTarPerm extractEntry lib/util/md5.js
+438 silly gunzTarPerm extractEntry CHANGELOG.md
+439 silly gunzTarPerm extractEntry templates/helpers/colors.js
+440 silly gunzTarPerm extractEntry templates/helpers/condense.js
+441 silly gunzTarPerm extractEntry templates/helpers/indent.js
+442 silly gunzTarPerm extractEntry templates/helpers/index.js
+443 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+444 silly gunzTarPerm extractEntry templates/helpers/sum.js
+445 silly gunzTarPerm extractEntry templates/json/help-list.json
+446 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+447 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+448 silly gunzTarPerm extractEntry templates/json/help-home.json
+449 silly gunzTarPerm extractEntry templates/json/help-info.json
+450 silly gunzTarPerm extractEntry templates/json/help-init.json
+451 silly gunzTarPerm extractEntry templates/json/help-install.json
+452 silly gunzTarPerm extractEntry templates/json/help-link.json
+453 silly gunzTarPerm extractEntry templates/json/help-cache.json
+454 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+455 silly gunzTarPerm extractEntry templates/json/help-prune.json
+456 silly gunzTarPerm extractEntry templates/json/help-register.json
+457 silly gunzTarPerm extractEntry templates/json/help-search.json
+458 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+459 silly gunzTarPerm extractEntry templates/json/help-update.json
+460 silly gunzTarPerm extractEntry templates/json/help.json
+461 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+462 silly gunzTarPerm extractEntry templates/std/conflict.std
+463 silly gunzTarPerm extractEntry templates/std/help-cache.std
+464 silly gunzTarPerm extractEntry templates/std/help-generic.std
+465 silly gunzTarPerm extractEntry templates/std/help.std
+466 silly gunzTarPerm extractEntry templates/std/info.std
+467 silly gunzTarPerm extractEntry templates/std/lookup.std
+468 silly gunzTarPerm extractEntry templates/std/register.std
+469 silly gunzTarPerm extractEntry templates/std/search-results.std
+470 silly gunzTarPerm extractEntry templates/std/update-notice.std
+471 silly gunzTarPerm extractEntry test/packages.js
+472 silly gunzTarPerm extractEntry test/test.js
+473 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+474 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+475 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+476 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+477 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+478 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+479 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+480 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+481 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+482 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+483 silly gunzTarPerm extractEntry test/core/packageRepository.js
+484 silly gunzTarPerm extractEntry test/core/resolveCache.js
+485 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+486 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+487 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+488 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+489 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+490 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+491 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+492 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+493 silly gunzTarPerm extractEntry test/packages.json
+494 silly lockFile 515aae40-e-malhar-npm-bower-1-2-8-package tar:///home/malhar/.npm/bower/1.2.8/package
+495 silly lockFile 515aae40-e-malhar-npm-bower-1-2-8-package tar:///home/malhar/.npm/bower/1.2.8/package
+496 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+497 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+498 verbose chmod /home/malhar/.npm/bower/1.2.8/package.tgz 644
+499 verbose chown /home/malhar/.npm/bower/1.2.8/package.tgz [ 1000, 1000 ]
+500 silly lockFile f9776a33--npmjs-org-bower-bower-1-2-8-tgz https://registry.npmjs.org/bower/-/bower-1.2.8.tgz
+501 silly lockFile f9776a33--npmjs-org-bower-bower-1-2-8-tgz https://registry.npmjs.org/bower/-/bower-1.2.8.tgz
+502 silly lockFile f0910d34-bower-1-2-8 bower@1.2.8
+503 silly lockFile f0910d34-bower-1-2-8 bower@1.2.8
+504 silly lockFile 1240aab1-bower bower@
+505 silly lockFile 1240aab1-bower bower@
+506 silly resolved [ { name: 'grunt-cli',
+506 silly resolved     description: 'The grunt command line interface.',
+506 silly resolved     version: '0.1.11',
+506 silly resolved     author: { name: 'Grunt Team' },
+506 silly resolved     homepage: 'http://gruntjs.com/',
+506 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+506 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+506 silly resolved     licenses: [ [Object] ],
+506 silly resolved     bin: { grunt: 'bin/grunt' },
+506 silly resolved     engines: { node: '>= 0.8.0' },
+506 silly resolved     scripts: { test: 'node bin/grunt test' },
+506 silly resolved     preferGlobal: true,
+506 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+506 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+506 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+506 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The Grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of Grunt you have installed locally to your project, irrespective of its version.  Starting with Grunt v0.4, you should never install Grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable tab auto-completion for Grunt, add one of the following lines to your `~/.bashrc` or `~/.zshrc` file.\n\n```bash\n# Bash, ~/.bashrc\neval "$(grunt --completion=bash)"\n```\n\n```bash\n# Zsh, ~/.zshrc\neval "$(grunt --completion=zsh)"\n```\n\n## Installing grunt-cli locally\nIf you don\'t have administrator rights, you may need to install grunt-cli locally to your project using `npm install grunt-cli --save-dev`.  Unfortunately, this will not put the `grunt` executable in your PATH.  You\'ll need to specify its explicit location when executing it, eg: `./node_modules/.bin/grunt`,\n\nNote: Using grunt-cli in this way is unsupported.\n',
+506 silly resolved     readmeFilename: 'README.md',
+506 silly resolved     _id: 'grunt-cli@0.1.11',
+506 silly resolved     dist: { shasum: 'ef0b77e87e517b99a1aa8569574b096d9c4c7378' },
+506 silly resolved     _from: 'grunt-cli@',
+506 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.11.tgz' },
+506 silly resolved   { name: 'yo',
+506 silly resolved     version: '1.1.1',
+506 silly resolved     description: 'CLI tool for scaffolding out Yeoman projects',
+506 silly resolved     license: 'MIT',
+506 silly resolved     bin: { yo: 'cli.js' },
+506 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo' },
+506 silly resolved     homepage: 'http://yeoman.io',
+506 silly resolved     author: { name: 'Chrome Developer Relations' },
+506 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+506 silly resolved     scripts:
+506 silly resolved      { test: 'grunt',
+506 silly resolved        postinstall: 'node scripts/doctor.js',
+506 silly resolved        postupdate: 'node scripts/doctor.js' },
+506 silly resolved     files: [ 'cli.js', 'yoyo.js', 'yeoman.txt', 'scripts/' ],
+506 silly resolved     keywords:
+506 silly resolved      [ 'front-end',
+506 silly resolved        'development',
+506 silly resolved        'dev',
+506 silly resolved        'build',
+506 silly resolved        'web',
+506 silly resolved        'tool',
+506 silly resolved        'cli',
+506 silly resolved        'scaffold',
+506 silly resolved        'stack' ],
+506 silly resolved     dependencies:
+506 silly resolved      { 'yeoman-generator': '~0.15.0',
+506 silly resolved        nopt: '~2.1.1',
+506 silly resolved        lodash: '~2.4.1',
+506 silly resolved        'update-notifier': '~0.1.3',
+506 silly resolved        insight: '~0.3.0',
+506 silly resolved        'sudo-block': '~0.3.0',
+506 silly resolved        async: '~0.2.9',
+506 silly resolved        open: '0.0.4',
+506 silly resolved        chalk: '~0.4.0',
+506 silly resolved        findup: '~0.1.3',
+506 silly resolved        shelljs: '~0.2.6' },
+506 silly resolved     peerDependencies: { 'grunt-cli': '~0.1.7', bower: '>=0.9.0' },
+506 silly resolved     devDependencies:
+506 silly resolved      { grunt: '~0.4.2',
+506 silly resolved        mockery: '~1.4.0',
+506 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+506 silly resolved        'grunt-contrib-watch': '~0.5.3',
+506 silly resolved        'grunt-mocha-test': '~0.8.1' },
+506 silly resolved     engineStrict: true,
+506 silly resolved     preferGlobal: true,
+506 silly resolved     readme: '# yo [![Build Status](https://secure.travis-ci.org/yeoman/yo.png?branch=master)](http://travis-ci.org/yeoman/yo)\n\nCLI tool for scaffolding out [Yeoman](https://github.com/yeoman/yeoman) projects.\n\n![](screenshot.png)\n\n\n## [Documentation](https://github.com/yeoman/yeoman/wiki)\n\n\n## Options\n\n- `--no-color` flag to disable colors.\n\n- `--[no-]insight` to toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n\n\n## Troubleshooting\n\nRunning `yo doctor` command can help you troubleshoot common issues.\n\nIf `doctor` doesn\'t help, then check opened issues for a similar problem. Open a new issue if your problem haven\'t been reported yet. Make sure to always include the version of `yo` (`yo --version`) and Node.js (`node --version`) you use.\n\nIf your issue only occur using a generator, please report the issues on the generator\'s repository.\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md).\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google.\n',
+506 silly resolved     readmeFilename: 'readme.md',
+506 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+506 silly resolved     _id: 'yo@1.1.1',
+506 silly resolved     dist: { shasum: '684fc6ff84b59fa9bc2919c7f6b6fc4f25aa4b65' },
+506 silly resolved     _from: 'yo@',
+506 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.1.1.tgz' },
+506 silly resolved   { name: 'bower',
+506 silly resolved     version: '1.2.8',
+506 silly resolved     description: 'The browser package manager.',
+506 silly resolved     author: { name: 'Twitter' },
+506 silly resolved     licenses: [ [Object] ],
+506 silly resolved     repository: { type: 'git', url: 'git://github.com/bower/bower.git' },
+506 silly resolved     main: 'lib',
+506 silly resolved     homepage: 'http://bower.io',
+506 silly resolved     engines: { node: '>=0.8.0' },
+506 silly resolved     dependencies:
+506 silly resolved      { abbrev: '~1.0.4',
+506 silly resolved        archy: '0.0.2',
+506 silly resolved        'bower-config': '~0.5.0',
+506 silly resolved        'bower-endpoint-parser': '~0.2.0',
+506 silly resolved        'bower-json': '~0.4.0',
+506 silly resolved        'bower-logger': '~0.2.1',
+506 silly resolved        'bower-registry-client': '~0.1.4',
+506 silly resolved        cardinal: '~0.4.0',
+506 silly resolved        chalk: '~0.2.0',
+506 silly resolved        chmodr: '~0.1.0',
+506 silly resolved        'decompress-zip': '~0.0.3',
+506 silly resolved        fstream: '~0.1.22',
+506 silly resolved        'fstream-ignore': '~0.0.6',
+506 silly resolved        glob: '~3.2.1',
+506 silly resolved        'graceful-fs': '~2.0.0',
+506 silly resolved        handlebars: '~1.0.11',
+506 silly resolved        inquirer: '~0.3.0',
+506 silly resolved        junk: '~0.2.0',
+506 silly resolved        mkdirp: '~0.3.5',
+506 silly resolved        mout: '~0.7.0',
+506 silly resolved        nopt: '~2.1.1',
+506 silly resolved        'lru-cache': '~2.3.0',
+506 silly resolved        open: '~0.0.3',
+506 silly resolved        osenv: '0.0.3',
+506 silly resolved        promptly: '~0.2.0',
+506 silly resolved        q: '~0.9.2',
+506 silly resolved        request: '~2.27.0',
+506 silly resolved        'request-progress': '~0.3.0',
+506 silly resolved        retry: '~0.6.0',
+506 silly resolved        rimraf: '~2.2.0',
+506 silly resolved        semver: '~2.1.0',
+506 silly resolved        'stringify-object': '~0.1.4',
+506 silly resolved        'sudo-block': '~0.2.0',
+506 silly resolved        tar: '~0.1.17',
+506 silly resolved        tmp: '~0.0.20',
+506 silly resolved        'update-notifier': '~0.1.3',
+506 silly resolved        which: '~1.0.5',
+506 silly resolved        'p-throttler': '~0.0.1' },
+506 silly resolved     devDependencies:
+506 silly resolved      { 'expect.js': '~0.2.0',
+506 silly resolved        grunt: '~0.4.1',
+506 silly resolved        'grunt-simple-mocha': '~0.4.0',
+506 silly resolved        'grunt-contrib-watch': '~0.5.0',
+506 silly resolved        'grunt-contrib-jshint': '~0.6.0',
+506 silly resolved        'grunt-exec': '~0.4.2',
+506 silly resolved        mocha: '~1.12.0',
+506 silly resolved        nock: '~0.22.0',
+506 silly resolved        istanbul: '~0.1.42',
+506 silly resolved        proxyquire: '~0.5.0' },
+506 silly resolved     scripts: { test: 'grunt test' },
+506 silly resolved     bin: { bower: 'bin/bower' },
+506 silly resolved     preferGlobal: true,
+506 silly resolved     readme: '# Bower\n\n[![Build Status](https://secure.travis-ci.org/bower/bower.png?branch=master)](http://travis-ci.org/bower/bower) [![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/bower/bower/counters/views-24h.png)](https://sourcegraph.com/github.com/bower/bower)\n\n<img align="right" height="300" src="http://bower.io/img/bower-logo.png">\n\nBower is a package manager for the web. It offers a generic, unopinionated\nsolution to the problem of **front-end package management**, while exposing the\npackage dependency model via an API that can be consumed by a more opinionated\nbuild stack. There are no system wide dependencies, no dependencies are shared\nbetween different apps, and the dependency tree is flat.\n\nBower runs over Git, and is package-agnostic. A packaged component can be made\nup of any type of asset, and use any type of transport (e.g., AMD, CommonJS,\netc.).\n\n[View all packages available through Bower\'s registry](http://sindresorhus.com/bower-components/).\n\n\n## Installing Bower\n\nBower depends on [Node](http://nodejs.org/) and [npm](http://npmjs.org/). It\'s\ninstalled globally using npm:\n\n```\nnpm install -g bower\n```\n\nAlso make sure that [git](http://git-scm.com/) is installed as some bower\npackages require it to be fetched and installed.\n\n\n## Usage\n\nMuch more information is available via `bower help` once it\'s installed. This\nis just enough to get you started.\n\n### Installing packages and dependencies\n\nBower offers several ways to install packages:\n\n#####Using the dependencies listed in the current directory\'s bower.json\n```\nbower install\n```\n##### Using a local or remote package\n```\nbower install <package>\n```\n##### Using a specific version of a package\n```\nbower install <package>#<version>\n```\n##### Using a different name and a specific version of a package\n```\nbower install <name>=<package>#<version>\n```\n\nWhere `<package>` can be any one of the following:\n\n* A name that maps to a package registered with Bower, e.g, `jquery`. ‡\n* A remote Git endpoint, e.g., `git://github.com/someone/some-package.git`. Can be\n  public or private. ‡\n* A local endpoint, i.e., a folder that\'s a Git repository. ‡\n* A shorthand endpoint, e.g., `someone/some-package` (defaults to GitHub). ‡\n* A URL to a file, including `zip` and `tar` files. Its contents will be\n  extracted.\n\n‡ These types of `<package>` might have versions available. You can specify a\n[semver](http://semver.org/) compatible version to fetch a specific release, and lock the\npackage to that version. You can also use ranges to specify a range of versions.\n\nAll package contents are installed in the `bower_components` directory by default.\nYou should **never** directly modify the contents of this directory.\n\nUsing `bower list` will show all the packages that are installed locally.\n\n**N.B.** If you aren\'t authoring a package that is intended to be consumed by\nothers (e.g., you\'re building a web app), you should always [check installed\npackages into source control](http://addyosmani.com/blog/checking-in-front-end-dependencies/).\n\n### Finding packages\n\nTo search for packages registered with Bower:\n\n```\nbower search [<name>]\n```\n\nUsing just `bower search` will list all packages in the registry.\n\n### Using packages\n\nThe easiest approach is to use Bower statically, just reference the package\'s\ninstalled components manually using a `script` tag:\n\n```html\n<script src="/bower_components/jquery/index.js"></script>\n```\n\nFor more complex projects, you\'ll probably want to concatenate your scripts or\nuse a module loader. Bower is just a package manager, but there are plenty of\nother tools -- such as [Sprockets](https://github.com/sstephenson/sprockets)\nand [RequireJS](http://requirejs.org/) -- that will help you do this.\n\n### Uninstalling packages\n\nTo uninstall a locally installed package:\n\n```\nbower uninstall <package-name>\n```\n\n\n#### Warning\n\nOn `prezto` or `oh-my-zsh`, do not forget to `alias bower=\'noglob bower\'` or `bower install jquery\\#1.9.1`\n\n#### Running commands with sudo\n\nBower is a user command, there is no need to execute it with superuser permissions.\nHowever, if you still want to run commands with sudo, use `--allow-root` option.\n\n#### A note for Windows users\n\nTo use Bower on Windows, you must install\n[msysgit](http://code.google.com/p/msysgit/) correctly. Be sure to check the\noption shown below:\n\n![msysgit](http://f.cl.ly/items/2V2O3i1p3R2F1r2v0a12/mysgit.png)\n\nNote that if you use TortoiseGit and if Bower keeps asking for your SSH\npassword, you should add the following environment variable: `GIT_SSH -\nC:\\Program Files\\TortoiseGit\\bin\\TortoisePlink.exe`. Adjust the `TortoisePlink`\npath if needed.\n\n### Using bower\'s cache\n\nBower supports installing packages from its local cache (without internet connection), if the packages were installed before.\n```\nbower install <package-name> --offline\n```\nThe content of the cache can be listed with:\n```\nbower cache list\n```\nThe cache can be cleaned with:\n```\nbower cache clean\n```\n\n## Configuration\n\nBower can be configured using JSON in a `.bowerrc` file.\n\nThe current spec can be read\n[here](https://docs.google.com/document/d/1APq7oA9tNao1UYWyOm8dKqlRP2blVkROYLZ2fLIjtWc/edit#heading=h.4pzytc1f9j8k)\nin the `Configuration` section.\n\n\n## Defining a package\n\nYou must create a `bower.json` in your project\'s root, and specify all of its\ndependencies. This is similar to Node\'s `package.json`, or Ruby\'s `Gemfile`,\nand is useful for locking down a project\'s dependencies.\n\n*NOTE:* In versions of Bower before 0.9.0 the package metadata file was called\n`component.json` rather than `bower.json`. This has changed to avoid a name\nclash with another tool. You can still use `component.json` for now but it is\ndeprecated and the automatic fallback is likely to be removed in an upcoming\nrelease.\n\nYou can interactively create a `bower.json` with the following command:\n\n```\nbower init\n```\n\nThe `bower.json` defines several options:\n\n* `name` (required): The name of your package.\n* `version`: A semantic version number (see [semver](http://semver.org/)).\n* `main` [string|array]: The primary endpoints of your package.\n* `ignore` [array]: An array of paths not needed in production that you want\n  Bower to ignore when installing your package.\n* `dependencies` [hash]: Packages your package depends upon in production.\n* `devDependencies` [hash]: Development dependencies.\n* `private` [boolean]: Set to true if you want to keep the package private and \n  do not want to register the package in future.\n\n```json\n{\n  "name": "my-project",\n  "version": "1.0.0",\n  "main": "path/to/main.css",\n  "ignore": [\n    ".jshintrc",\n    "**/*.txt"\n  ],\n  "dependencies": {\n    "<name>": "<version>",\n    "<name>": "<folder>",\n    "<name>": "<package>"\n  },\n  "devDependencies": {\n    "<test-framework-name>": "<version>"\n  }\n}\n```\n\n### Registering packages\n\nTo register a new package:\n\n* There **must** be a valid manifest JSON in the current working directory.\n* Your package should use [semver](http://semver.org/) Git tags.\n* Your package **must** be available at a Git endpoint (e.g., GitHub); remember\n  to push your Git tags!\n\nThen use the following command:\n\n```\nbower register <my-package-name> <git-endpoint>\n```\n\nThe Bower registry does not have authentication or user management at this point\nin time. It\'s on a first come, first served basis. Think of it like a URL\nshortener. Now anyone can run `bower install <my-package-name>`, and get your\nlibrary installed.\n\nThere is no direct way to unregister a package yet. For now, you can [request a\npackage be unregistered](https://github.com/bower/bower/issues/120).\n\n\n## Consuming a package\n\nBower also makes available a source mapping. This can be used by build tools to\neasily consume Bower packages.\n\nIf you pass the `--paths` option to Bower\'s `list` command, you will get a\nsimple path-to-name mapping:\n\n```json\n{\n  "backbone": "bower_components/backbone/index.js",\n  "jquery": "bower_components/jquery/index.js",\n  "underscore": "bower_components/underscore/index.js"\n}\n```\n\nAlternatively, every command supports the `--json` option that makes bower\noutput JSON. Command result is outputted to `stdout` and error/logs to\n`stderr`.\n\n\n## Programmatic API\n\nBower provides a powerful, programmatic API. All commands can be accessed\nthrough the `bower.commands` object.\n\n```js\nvar bower = require(\'bower\');\n\nbower.commands\n.install([\'jquery\'], { save: true }, { /* custom config */ })\n.on(\'end\', function (installed) {\n    console.log(installed);\n});\n\nbower.commands\n.search(\'jquery\', {})\n.on(\'end\', function (results) {\n    console.log(results);\n});\n```\n\nCommands emit four types of events: `log`, `prompt`, `end`, `error`.\n\n* `log` is emitted to report the state/progress of the command.\n* `prompt` is emitted whenever the user needs to be prompted.\n* `error` will only be emitted if something goes wrong.\n* `end` is emitted when the command successfully ends.\n\nFor a better of idea how this works, you may want to check out [our bin\nfile](https://github.com/bower/bower/blob/master/bin/bower).\n\nWhen using bower programmatically, prompting is disabled by default. Though you can enable it when calling commands with `interactive: true` in the config.\nThis requires you to listen for the `prompt` event and handle the prompting yourself. The easiest way is to use the [inquirer](https://npmjs.org/package/inquirer) npm module like so:\n\n```js\nvar inquirer =  require(\'inquirer\');\n\nbower.commands\n.install([\'jquery\'], { save: true }, { interactive: true })\n// ..\n.on(\'prompt\', function (prompts, callback) {\n    inquirer.prompt(prompts, callback);\n});\n```\n\n\n## Completion (experimental)\n\n_NOTE_: Completion is still not implemented for the 1.0.0 release\n\nBower now has an experimental `completion` command that is based on, and works\nsimilarly to the [npm completion](https://npmjs.org/doc/completion.html). It is\nnot available for Windows users.\n\nThis command will output a Bash / ZSH script to put into your `~/.bashrc`,\n`~/.bash_profile`, or `~/.zshrc` file.\n\n```\nbower completion >> ~/.bash_profile\n```\n\n\n## Contact\n\nHave a question?\n\n* [StackOverflow](http://stackoverflow.com/questions/tagged/bower)\n* [Mailinglist](http://groups.google.com/group/twitter-bower) - twitter-bower@googlegroups.com\n* [\\#bower](http://webchat.freenode.net/?channels=bower) on Freenode\n\n\n## Contributing to this project\n\nAnyone and everyone is welcome to contribute. Please take a moment to\nreview the [guidelines for contributing](CONTRIBUTING.md).\n\n* [Bug reports](CONTRIBUTING.md#bugs)\n* [Feature requests](CONTRIBUTING.md#features)\n* [Pull requests](CONTRIBUTING.md#pull-requests)\n\n\n## Authors\n\n* [@fat](https://github.com/fat)\n* [@maccman](https://github.com/maccman)\n* [@satazor](https://github.com/satazor)\n\nThanks for assistance and contributions:\n\n[@addyosmani](https://github.com/addyosmani),\n[@angus-c](https://github.com/angus-c),\n[@borismus](https://github.com/borismus),\n[@carsonmcdonald](https://github.com/carsonmcdonald),\n[@chriseppstein](https://github.com/chriseppstein),\n[@danwrong](https://github.com/danwrong),\n[@davidmaxwaterman](https://github.com/davidmaxwaterman),\n[@desandro](https://github.com/desandro),\n[@hemanth](https://github.com/hemanth),\n[@isaacs](https://github.com/isaacs),\n[@josh](https://github.com/josh),\n[@jrburke](https://github.com/jrburke),\n[@marcelombc](https://github.com/marcelombc),\n[@marcooliveira](https://github.com/marcooliveira),\n[@mklabs](https://github.com/mklabs),\n[@MrDHat](https://github.com/MrDHat),\n[@necolas](https://github.com/necolas),\n[@paulirish](https://github.com/paulirish),\n[@richo](https://github.com/richo),\n[@rvagg](https://github.com/rvagg),\n[@sindresorhus](https://github.com/sindresorhus),\n[@SlexAxton](https://github.com/SlexAxton),\n[@sstephenson](https://github.com/sstephenson),\n[@svnlto](https://github.com/svnlto),\n[@tomdale](https://github.com/tomdale),\n[@uzquiano](https://github.com/uzquiano),\n[@visionmedia](https://github.com/visionmedia),\n[@wagenet](https://github.com/wagenet),\n[@wibblymat](https://github.com/wibblymat),\n[@wycats](https://github.com/wycats)\n\n\n## License\n\nCopyright 2012 Twitter, Inc.\n\nLicensed under the MIT License\n',
+506 silly resolved     readmeFilename: 'README.md',
+506 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+506 silly resolved     _id: 'bower@1.2.8',
+506 silly resolved     dist: { shasum: '2f04083e21fc1a4a4da6d61e3226d5c5585eb236' },
+506 silly resolved     _from: 'bower@',
+506 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.2.8.tgz' } ]
+507 info install grunt-cli@0.1.11 into /usr/lib
+508 info install yo@1.1.1 into /usr/lib
+509 info install bower@1.2.8 into /usr/lib
+510 info installOne grunt-cli@0.1.11
+511 info installOne yo@1.1.1
+512 info installOne bower@1.2.8
+513 info /usr/lib/node_modules/grunt-cli unbuild
+514 info /usr/lib/node_modules/yo unbuild
+515 info /usr/lib/node_modules/bower unbuild
+516 verbose tar unpack /home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+517 silly lockFile 2107e595-r-usr-lib-node-modules-grunt-cli tar:///usr/lib/node_modules/grunt-cli
+518 verbose lock tar:///usr/lib/node_modules/grunt-cli /home/malhar/.npm/2107e595-r-usr-lib-node-modules-grunt-cli.lock
+519 silly lockFile 120d9329-npm-grunt-cli-0-1-11-package-tgz tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz
+520 verbose lock tar:///home/malhar/.npm/grunt-cli/0.1.11/package.tgz /home/malhar/.npm/120d9329-npm-grunt-cli-0-1-11-package-tgz.lock
+521 verbose tar unpack /home/malhar/.npm/yo/1.1.1/package.tgz
+522 silly lockFile 7bedd6dc-tar-usr-lib-node-modules-yo tar:///usr/lib/node_modules/yo
+523 verbose lock tar:///usr/lib/node_modules/yo /home/malhar/.npm/7bedd6dc-tar-usr-lib-node-modules-yo.lock
+524 silly lockFile 422b8aae--malhar-npm-yo-1-1-1-package-tgz tar:///home/malhar/.npm/yo/1.1.1/package.tgz
+525 verbose lock tar:///home/malhar/.npm/yo/1.1.1/package.tgz /home/malhar/.npm/422b8aae--malhar-npm-yo-1-1-1-package-tgz.lock
+526 verbose tar unpack /home/malhar/.npm/bower/1.2.8/package.tgz
+527 silly lockFile 6f53a3f9-tar-usr-lib-node-modules-bower tar:///usr/lib/node_modules/bower
+528 verbose lock tar:///usr/lib/node_modules/bower /home/malhar/.npm/6f53a3f9-tar-usr-lib-node-modules-bower.lock
+529 silly lockFile 774c6c49-lhar-npm-bower-1-2-8-package-tgz tar:///home/malhar/.npm/bower/1.2.8/package.tgz
+530 verbose lock tar:///home/malhar/.npm/bower/1.2.8/package.tgz /home/malhar/.npm/774c6c49-lhar-npm-bower-1-2-8-package-tgz.lock
+531 silly gunzTarPerm modes [ '755', '644' ]
+532 silly gunzTarPerm modes [ '755', '644' ]
+533 silly gunzTarPerm modes [ '755', '644' ]
+534 error Error: EACCES, mkdir '/usr/lib/node_modules/grunt-cli'
+534 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/grunt-cli']
+534 error   errno: 3,
+534 error   code: 'EACCES',
+534 error   path: '/usr/lib/node_modules/grunt-cli',
+534 error   fstream_type: 'Directory',
+534 error   fstream_path: '/usr/lib/node_modules/grunt-cli',
+534 error   fstream_class: 'DirWriter',
+534 error   fstream_stack:
+534 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+534 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+534 error      'Object.oncomplete (fs.js:107:15)' ] }
+535 error Please try running this command again as root/Administrator.
+536 error System Linux 3.8.0-34-generic
+537 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "yo" "grunt-cli" "bower"
+538 error cwd /home/malhar/dotfiles
+539 error node -v v0.10.22
+540 error npm -v 1.3.14
+541 error path /usr/lib/node_modules/grunt-cli
+542 error fstream_path /usr/lib/node_modules/grunt-cli
+543 error fstream_type Directory
+544 error fstream_class DirWriter
+545 error code EACCES
+546 error errno 3
+547 error stack Error: EACCES, mkdir '/usr/lib/node_modules/grunt-cli'
+548 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+548 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+548 error fstream_stack Object.oncomplete (fs.js:107:15)
+549 verbose exit [ 3, true ]

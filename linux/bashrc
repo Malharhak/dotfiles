@@ -1,7 +1,5 @@
-export PATH=$PATH:~/bin
-function precmd () {
-_z --add "$(pwd -P)"
-}
+# Z function
+. $HOME/lib/z.sh
 function server() {
 	local port="${1:-8000}"
 	open "http://localhost:${port}/*"
